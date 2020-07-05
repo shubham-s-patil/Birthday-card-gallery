@@ -26,3 +26,15 @@ window.onload=function(){(function() {
   });
 
 }());}
+
+        function play() {
+        var audio = document.getElementById("audio");
+        audio.currentTime=18;
+        audio.play();
+        }
+
+        function pause(){
+          var audio = document.getElementById("audio");
+          audio.currentTime=20;
+          audio.pause();
+        }
